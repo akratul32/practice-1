@@ -1,0 +1,26 @@
+
+
+.custom_color{
+     background-color: #eddcd9 ;
+     padding: 5px;
+     margin: 5px;
+}
+.text-style-1{
+     color:#c65032;
+     font-family: 'Alkatra', cursive;
+     font-weight: 700;
+
+}
+.text-style-2{
+     color:#c65032;
+     font-family: 'Poppins', sans-serif;
+
+}
+.text-style-2:hover {
+     color: black;
+     border: 1px solid#c65032;
+     background: lightgray;
+     text-decoration: underline;
+     font-family: 'Poppins', sans-serif;
+
+}
