@@ -30,3 +30,7 @@
      font-family: 'Roboto', sans-serif;
 
 }
+.home-image{
+     background-size: 100%;
+     background-position: center;
+}
