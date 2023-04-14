@@ -26,11 +26,46 @@
 }
 
 .text-style-3{
-     color: #8D918D;
+     color: #6d5dc9;
      font-family: 'Roboto', sans-serif;
+     font-weight: 700;
 
 }
+.text-style-4{
+     color: #8b1c4b;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+
+}
+.text-style-4-header{
+     color: #070f58;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 700;
+
+}
+
+
 .home-image{
      background-size: 100%;
      background-position: center;
 }
+.single-logo-item {
+     width: 4rem;
+     height: 5.875rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+     border: 0.0625rem solid var(--bg-gray);
+     box-shadow: none;
+     -webkit-transition: all .4s ease 0s;
+     -moz-transition: all .4s ease 0s;
+     -o-transition: all .4s ease 0s;
+     transition: all .4s ease 0s;
+ }
+ 
+.single-logo-item:hover {
+     border: 0.0625rem solid transparent;
+     box-shadow: 0 0.5rem 1.875rem rgb(118 85 225 / 15%);
+ }
+ 
