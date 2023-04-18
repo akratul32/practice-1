@@ -1,12 +1,28 @@
-
-
+.bg-color{
+     background-color: #E5D1FA;
+     background-size: cover;                      
+     background-repeat: no-repeat;
+     background-position: center center; 
+     padding-left: 20px;
+     padding-right: 20px;
+}
 .custom_color{
-     background-color: #eddcd9 ;
+     background-color: #E3DFFD;
      padding: 5px;
      margin: 5px;
+     border-radius: 15px;
 }
+.custom_color-subheading{
+     background-color: #C9EEFF;
+     padding: 5px;
+     margin: 5px;
+     border-radius: 10px;
+}
+
+
 .text-style-1{
      color:#c65032;
+     text-shadow: 2px 2px;
      font-family: 'Alkatra', cursive;
      font-weight: 700;
 
@@ -14,14 +30,17 @@
 .text-style-2{
      color:#c65032;
      font-family: 'Poppins', sans-serif;
+     font-weight: 700;
 
 }
 .text-style-2:hover {
      color: black;
      border: 1px solid#c65032;
-     background: lightgray;
+     background: rgb(171, 194, 228);
      text-decoration: underline;
      font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+     border-radius: 10px;
 
 }
 
@@ -69,3 +88,65 @@
      box-shadow: 0 0.5rem 1.875rem rgb(118 85 225 / 15%);
  }
  
+ .carousel-image{
+     width: 95%;
+     height: 21.875rem;
+     
+ }
+ /* CSS for project page  */
+     /* Container Background */
+     .project-bg{
+          background-color: #ECF2FF;
+          background-size: cover;                      
+          background-repeat: no-repeat;
+          background-position: center center; 
+          border-radius: 2rem; 
+     }
+     .project-heading-1{ 
+          color: #460C68;
+          font-family: 'Alkatra', cursive;
+          font-weight: 700;
+     }
+     .project-heading-2{
+          color: #7F167F;
+          font-family: 'Alkatra', cursive;
+          font-weight: 700;
+     }
+     .project-heading-3{
+          color: #CB1C8D;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 700;
+     }
+     .project-para-style{
+          color: #F56EB3;
+          font-family: 'Roboto', sans-serif;
+          font-size: .85rem;
+          font-weight: 700;
+     }
+
+     /* span style 1 */
+    .span-style-1{
+     font-size: .85em;
+
+    }
+     .span-style-2{
+          font-size: .8em
+    }
+     /* span style 2 */
+    .bg-card{
+     background-color:#917FB3;
+     border-radius: 2rem;
+     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+     
+    }
+    .list-text{
+     color: #7F167F;
+     font-family: 'Alkatra', cursive;
+     font-weight: 700;
+    }
+
+    .list-text-1:hover{
+     color: #460C68;
+     background-color: #917FB3;
+
+    }
