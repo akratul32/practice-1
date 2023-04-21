@@ -70,13 +70,14 @@
 }
 .single-logo-item {
      width: 4rem;
-     height: 5.875rem;
+     height: 5rem;
      display: flex;
      align-items: center;
      justify-content: center;
      cursor: pointer;
      border: 0.0625rem solid var(--bg-gray);
-     box-shadow: none;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+     border-radius: 10px;
      -webkit-transition: all .4s ease 0s;
      -moz-transition: all .4s ease 0s;
      -o-transition: all .4s ease 0s;
@@ -149,4 +150,33 @@
      color: #460C68;
      background-color: #917FB3;
 
+    }
+    /* Button styling starts */
+     .gradient-btn {
+     background-image: linear-gradient(to right, #ff8a00, #da1b60);
+     transition: background 0.5s ease-out;
+     font-size: 1.25rem;
+     }
+
+     .gradient-btn:hover {
+     background-image: linear-gradient(to right, #da1b60, #ff8a00);
+     font-size: 1.25rem;
+     }
+
+     .shadow-btn {
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+     transition: box-shadow 0.3s ease-out;
+     border-radius: 5px;
+     }
+
+     .shadow-btn:hover {
+     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+     border-radius: 10px;
+     }
+
+    /* Button styling ends */
+    .bg-para{
+     border-radius: 2rem;
+     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+     border: 1px solid #E5D1FA;
     }
