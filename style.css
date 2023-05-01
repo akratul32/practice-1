@@ -1,3 +1,25 @@
+/* Set font family and size for body text */
+body {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     line-height: 1.5;
+   }
+   
+   /* Set paragraph width to 90% and limit to a maximum width of 800px */
+   p {
+     width: 90%;
+     max-width: 800px;
+     margin: 0 auto;
+   }
+   
+   /* Set different font size and line height for screens smaller than 600px */
+   @media only screen and (max-width: 600px) {
+     p {
+       font-size: 14px;
+       line-height: 1.3;
+     }
+   }
+
 .bg-color{
      background-color: #E5D1FA;
      background-size: cover;                      
@@ -180,3 +202,156 @@
      box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
      border: 1px solid #E5D1FA;
     }
+
+
+
+    @media (max-width: 361px) {
+     .container {
+       padding-left: 0;
+       padding-right: 0;
+       max-width: none;
+       width: 100%;
+     }
+   }
+
+
+/* Table starts */
+table {
+     width: 100%;
+     border-collapse: collapse;
+   }
+   
+   th, td {
+     padding: 0.5rem;
+     text-align: center;
+     word-wrap: break-word;
+     overflow-wrap: break-word;
+     font-size: 1rem; /* default font size */
+   }
+   
+   @media only screen and (max-width: 767px) {
+     th, td {
+       font-size: 0.8rem; /* smaller font size for smaller devices */
+     }
+     
+     th {
+       text-align: left;
+     }
+   }
+
+/* Table Ends */
+
+/* Default font sizes */
+h1 {
+     font-size: 2.5rem;
+   }
+   
+   h2 {
+     font-size: 2rem;
+   }
+   
+   h3 {
+     font-size: 1.5rem;
+   }
+   
+   p {
+     font-size: 1rem;
+   }
+    /* Media queries for larger devices */
+    @media only screen and (min-width: 1200px) {
+     h1 {
+       font-size: 3rem;
+     }
+     
+     h2 {
+       font-size: 2.5rem;
+     }
+     
+     h3 {
+       font-size: 2rem;
+     }
+     
+     p {
+       font-size: 1.2rem;
+     }
+   }
+   /* Media queries for smaller devices */
+   @media only screen and (max-width: 767px) {
+     h1 {
+       font-size: 2rem;
+     }
+     
+     h2 {
+       font-size: 1.8rem;
+     }
+     
+     h3 {
+       font-size: 1.3rem;
+     }
+     
+     p {
+       font-size: 0.9rem;
+     }
+   }
+   /* Media queries for even smaller devices */
+@media only screen and (max-width: 540px) {
+     h1 {
+       font-size: 1.8rem;
+     }
+     
+     h2 {
+       font-size: 1.5rem;
+     }
+     
+     h3 {
+       font-size: 1.2rem;
+     }
+     
+     p {
+       font-size: 0.8rem;
+     }
+   }
+   
+   /* Media queries for smallest devices */
+   @media only screen and (max-width: 299px) {
+     h1 {
+       font-size: 1.5rem;
+     }
+     
+     h2 {
+       font-size: 1.2rem;
+     }
+     
+     h3 {
+       font-size: 1rem;
+     }
+     
+     p {
+       font-size: 0.7rem;
+     }
+   }
+  /* Default font size for list items */
+li {
+     font-size: 1rem;
+   }
+   
+   /* Media queries for smaller devices */
+   @media only screen and (max-width: 767px) {
+     li {
+       font-size: 0.9rem;
+     }
+   }
+   
+   /* Media queries for even smaller devices */
+   @media only screen and (max-width: 399px) {
+     li {
+       font-size: 0.8rem;
+     }
+   }
+   
+   /* Media queries for smallest devices */
+   @media only screen and (max-width: 299px) {
+     li {
+       font-size: 0.7rem;
+     }
+   }
